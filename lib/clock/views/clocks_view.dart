@@ -14,7 +14,7 @@ class ClocksView extends StatelessWidget {
 
         switch (state.status) {
           case ClockStatus.initial:
-            return const CircularProgressIndicator();
+            return Center(child: const CircularProgressIndicator());
           case ClockStatus.failure:
             return const Center(child: Text('Failed to load.'));
           case ClockStatus.success:

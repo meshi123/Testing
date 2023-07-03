@@ -5,7 +5,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'clock/bloc/clock_bloc.dart';
 import 'clock/views/clocks_view.dart';
 
-// test
 class App extends StatelessWidget {
   const App({super.key});
 

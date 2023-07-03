@@ -27,7 +27,7 @@ class ClockBloc extends Bloc<ClockEvent, ClockState> {
           print(data);
         },
       );
-
+      print('You will never see this line');
       emit(state.copyWith(
         events: eventDatas,
         status: ClockStatus.success,
